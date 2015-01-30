@@ -13,10 +13,10 @@
    the CSS to the page. feel free to remove it once the link is working. */
 body {
      font-size: 200%;
-     border: 1px dotted gray;
+     border: none;
 
      padding: 20px;
-     background-image: url("../images/background.jpg");
+     background-image: url("../images/background2.jpg");
      background-size: cover;
      background-repeat: no-repeat;
 }
@@ -26,7 +26,8 @@ h4{
 }
 
 .jumbotron {
-     position: center;
+     text-align: center;
+
      background: none;
      color: #FFFFFF;
 }
