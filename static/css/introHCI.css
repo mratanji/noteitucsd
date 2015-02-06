@@ -49,3 +49,18 @@ h4{
 	height: 100%;
 }
 
+.header{
+     text-align: left;
+
+}
+#images{
+    text-align:center;
+    margin:50px auto;
+}
+#images a{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    float: left;
+}

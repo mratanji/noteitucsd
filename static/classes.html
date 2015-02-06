@@ -22,13 +22,49 @@
 </head>
 
 <body>
+	<div id="images">
+		<a href="#">
+	        <img src="images/back.png" width="100px" height="100px" onclick="history.go(-1)">
+	        <div class="caption">Back</div>
+   	 	</a>
+
+	    <a href="index.html">
+	        <img src="images/home.png" width="100px" height="100px"> 
+	        <div class="caption">Home</div>
+	    </a>
+
+		<a href="#">
+	        <img src="images/forward.png" width="100px" height="100px" onclick="history.go(1)">
+	        <div class="caption">Forward</div>
+	    </a>
+
+	    <a href="upload.html">
+	        <img src="images/upload.png" width="100px" height="100px"> 
+	        <div class="caption">Upload</div>
+	    </a>
+
+	    <p style="clear: both;">
+	</div>
 
 	<div class="jumbotron">
 		<h1><center><a style="color: #FFFFFF" href="index.html">NOTE IT!</a></h1>
 	</div>
 
-	<div class="container">	
-		This is where we'll have a list of classes
+	<DIV class="container">
+		<h3><center>Select a department</h3>
+	</DIV>
+	<div class="classSelect container">	
+		<select>
+			<option>COGS</option>
+			<option>CSE</option>
+			<option>ECE</option>
+		</select>
+		<hr>
+	</div>
+	<div class="button container" id="department_selected">
+		<a href="course_ID.html" class = "thumbnail">
+			<p>Find course ID</p>
+		</a>
 	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
