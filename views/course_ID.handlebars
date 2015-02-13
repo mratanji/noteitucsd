@@ -21,37 +21,24 @@
     <![endif]-->        
 </head>
 <body>
-	<div id="images">
-		<a href="#">
-	        <img src="images/back.png" width="50px" height="50px" onclick="history.go(-1)">
-	        <div class="caption">Back</div>
-   	 	</a>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid navbar-header">
+		    	<a onclick="history.go(-1)">
+		    		<button type="button" class="btn btn-default navbar-btn">Back</button></a>
+		    	<a href="/">
+		    		<button type="button" class="btn btn-default navbar-btn">Home</button></a>
+      	</div><!-- /.container-fluid -->
+     </nav>
 
-	    <a href="/">
-	        <img src="images/home.png" width="50px" height="50px"> 
-	        <div class="caption">Home</div>
-	    </a>
-
-	    <a href="/upload">
-	        <img src="images/upload.png" width="50px" height="50px"> 
-	        <div class="caption">Upload</div>
-	    </a>
-
-	    <p style="clear: both;">
-	</div>
-
-	<div class="jumbotron">
-		<h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
-	</div>
-
+	<h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
+	
 	<div class="container">
 		<h3><center>Select Course ID</h3>
-	</div>
-
-	<div class="list-group">
-	  	<a href="/professor" class="list-group-item">3</a>
-	  	<a href="/professor" class="list-group-item">7</a>
-	  	<a href="/professor" class="list-group-item">101</a>
+		<div class="list-group">
+	  		<a href="/professor" class="list-group-item">3</a>
+	  		<a href="/professor" class="list-group-item">7</a>
+	  		<a href="/professor" class="list-group-item">101</a>
+		</div>
 	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

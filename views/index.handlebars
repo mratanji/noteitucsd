@@ -22,40 +22,33 @@
 </head>
 
 <body>
-    <div id="images">
-        <a href="#">
-            <img src="images/back.png" width="50px" height="50px" onclick="history.go(-1)">
-            <div class="caption">Back</div>
-        </a>
-        <a href="/upload">
-            <img src="images/upload.png" width="50px" height="50px"> 
-            <div class="caption">Upload</div>
-        </a>
-        <a href="/login">
-            Login!
-        </a>
-        <p style="clear: both;">
-    </div>
-
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and sign in get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">NoteIt!</a>
+                <a href="/login">
+                    <button type="button" class="btn btn-default navbar-btn">Sign in</button></a>
+            </div>              
+        </div><!-- /.container-fluid -->
+      </nav>
+      
     <div class = "container">
         <!-- h1 through h6 are headers. The higher the number, the smaller the header -->
         <!-- p means paragraph -->
         <h4><center>NOTE IT!</h4>
         <h5><center> A Collaborative Note-Taking App By Students, For Students</h5>
 
-        <IMG SRC="images/tritons.png" ALT="UCSD_Logo" WIDTH=100 HEIGHT=150 >
-
+        <img SRC="images/tritons.png" ALT="UCSD_Logo" WIDTH=100 HEIGHT=150>
         <hr>
-
         <a href="/classes" id="classes" class="btn btn-primary btn-lg btn-block active" role="button">Find Notes</a>
 
         <a href="/make_account" id="new_account" class="btn btn-primary btn-lg btn-block active" role="button">Make an Account</a>
-
+    </div>
         <!-- Importing the JS scripts here for the project -->
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="/js/jquery-1.11.0.js"></script>
         <script src="/js/bootstrap.js"></script>
         <script src="/js/noteitucsd.js"></script>
-    </div>
 </body>
 </html>

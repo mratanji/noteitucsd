@@ -22,29 +22,35 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid navbar-header">
+            <a onclick="history.go(-1)">
+                <button type="button" class="btn btn-default navbar-btn">Back</button></a>
+                <a href="/">
+                <button type="button" class="btn btn-default navbar-btn">Home</button></a>
+        </div><!-- /.container-fluid -->
+    </nav>
 
-    <div class="jumbotron">
-        <h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
-    </div>
+    <h1 style="color: #FFFFFF"><center>NOTE IT!</h1>
+    <h3 style="color: #FFFFFF"><center>Free registration!</h3>
 
     <div class="container">
-
     <form>
         <div class="form-group">
-            <input type="email" class="form-control" name="real_name" id="real_name" placeholder="Name">
+            <input type="email" class="form-control" id="real_name" placeholder="Name">
         </div>
 
         <div class="form-group">
-            <input type="text" class="form-control" name="uname" id="uname" placeholder="Username">
+            <input type="text" class="form-control" id="uname" placeholder="Username">
         </div>
 
         <div class="form-group">
-            <input type="password" class="form-control" name="pass" id="pass" placeholder="Password">
+            <input type="password" class="form-control" id="pass" placeholder="Password">
         </div>
 
         <a href="/account_done" class="btn btn-primary btn-lg btn-block active" role="button">Submit</a>
     </form>
-
+    </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>

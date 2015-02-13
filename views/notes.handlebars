@@ -22,39 +22,23 @@
 </head>
 
 <body>
-	<div id="images">
-		<a href="#">
-	        <img src="images/back.png" width="50px" height="50px" onclick="history.go(-1)">
-	        <div class="caption">Back</div>
-   	 	</a>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid navbar-header">
+			<a onclick="history.go(-1)">
+		    	<button type="button" class="btn btn-default navbar-btn">Back</button></a>
+		    	<a href="/">
+		    	<button type="button" class="btn btn-default navbar-btn">Home</button></a>
+      	</div><!-- /.container-fluid -->
+    </nav>
 
-	    <a href="/">
-	        <img src="images/home.png" width="50px" height="50px"> 
-	        <div class="caption">Home</div>
-	    </a>
+	<h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
 
-	    <a href="/upload">
-	        <img src="images/upload.png" width="50px" height="50px"> 
-	        <div class="caption">Upload</div>
-	    </a>
-
-	    <p style="clear: both;">
-	</div>
-
-	<div class="jumbotron">
-		<h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
-	</div>
-
-	<DIV class="container">
-		<h3><center>All Available Notes:</h3>
-	</DIV>
 	<div class="container">
+		<h3><center>All Available Notes:</h3>
 		<p> None at the moment! Check back later, or</p>
-		<hr>
+		<hr></hr>
+		<a href="/upload" id="upload_notes" class="btn btn-primary btn-lg btn-block active" role="button">Upload Notes</a>
 	</div>
-
-    <a href="/upload" id="upload_notes" class="btn btn-primary btn-lg btn-block active" role="button">Upload Notes</a>
-
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://code.jquery.com/jquery.js"></script>
