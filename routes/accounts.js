@@ -3,12 +3,16 @@ var accounts = require('../accounts.json');
 exports.addAccount = function(req, res) {    
 
     var newAccount = {
-        "name": req.query.name,
-        "username": req.query.username,
-        "password": req.query.password
-    }
+        "name": req.query.real_name,
+        "username": req.query.uname,
+        "password": req.query.pass
+    };
 
     accounts["accounts"].push(newAccount);
 
-    res.render('account_done');
- }
+    res.render('account_done', accounts);
+ };
+
+exports.view = function(req, res) {
+    res.render('/account_done', accounts)
+}
