@@ -43,33 +43,22 @@
 		<h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
 	</div>
 
-	<DIV class="container">
-		<h3><center>Select a Professor</h3>
-	</DIV>
-	<div class="classSelect container">	
-		<select>
-			<option>Klemmer, Scott</option>
-			<option>More Scott</option>
-			<option>Guesse who? Scott.</option>
-			<option>Choose a different quarter</option>
-		</select>
-		<hr>
-	</div>
-	<div class="button container" id="prof_selected">
-		<a href="/notes" class = "thumbnail">
-			<p>List Notes</p>
-		</a>	
-	</div>
-		<div class="button container" id="diff_quarter">
-		<a href="/udder_quarters" class = "thumbnail">
-			<p>Different Quarter</p>
-		</a>	
+	<div class="container">
+		<h3><center>Select Professor</h3>
 	</div>
 
+	<div class="list-group">
+	  	<a href="/notes" class="list-group-item">Klemmer, Scott</a>
+	  	<a href="/notes" class="list-group-item">More Scott</a>
+	  	<a href="/notes" class="list-group-item">Guess who? Scott.</a>
+	</div>
+
+    <a href="/udder_quarters" id="diff_quarter" class="btn btn-primary btn-lg btn-block active" role="button">Browse Past Quarters</a>
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="/js/jquery-1.11.0.js"></script>
-		<script src="/js/bootstrap.js"></script>
-		<script src="/js/noteitucsd.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/js/jquery-1.11.0.js"></script>
+	<script src="/js/bootstrap.js"></script>
+	<script src="/js/noteitucsd.js"></script>
 </body>
 </html>

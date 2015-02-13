@@ -22,25 +22,42 @@
 </head>
 
 <body>
+	<div id="images">
+		<a href="#">
+	        <img src="images/back.png" width="50px" height="50px" onclick="history.go(-1)">
+	        <div class="caption">Back</div>
+   	 	</a>
+
+	    <a href="/">
+	        <img src="images/home.png" width="50px" height="50px"> 
+	        <div class="caption">Home</div>
+	    </a>
+
+	    <a href="/upload">
+	        <img src="images/upload.png" width="50px" height="50px"> 
+	        <div class="caption">Upload</div>
+	    </a>
+
+	    <p style="clear: both;">
+	</div>
 
 	<div class="jumbotron">
 		<h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
 	</div>
 
-	<div class="container">
-		<form>
-			Username:<br>
-			<input type="text" name="username"><br>
-			Password:<br>
-			<input type="text" name="password"><br>
-		</form>
 
-		<br>
+    <form>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Username">
+        </div>
 
-		<div class="button" id="login">
-			<a href="/" class="thumbnail">Login!</a>
-		</div>
-	</div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="Password">
+        </div>
+
+        <a href="/" id="login" class="btn btn-primary btn-lg btn-block active" role="button">Login</a>
+    </form>
+
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://code.jquery.com/jquery.js"></script>

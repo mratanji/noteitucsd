@@ -2,10 +2,10 @@
 
 <html>
 <head>
-	<title>My HCI Friends</title>	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+    <title>My HCI Friends</title>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,54 +15,47 @@
     <![endif]-->   
 
     <!-- Import in the CSS script files -->
-	<link href="/css/bootstrap.css" rel="stylesheet">
-	<link href="/css/bootstrap-theme.css" rel="stylesheet">
-	<link href="/css/noteitucsd.css" rel="stylesheet"> 
-	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/css/noteitucsd.css" rel="stylesheet"> 
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
 
 <body>
-	<div id="images">
-		<a href="#">
-	        <img src="images/back.png" width="50px" height="50px" onclick="history.go(-1)">
-	        <div class="caption">Back</div>
-   	 	</a>
-	    <a href="/upload">
-	        <img src="images/upload.png" width="50px" height="50px"> 
-	        <div class="caption">Upload</div>
-	    </a>
-	    <a href="/login">
-	    	Login!
-	    </a>
-	    <p style="clear: both;">
-	</div>
+    <div id="images">
+        <a href="#">
+            <img src="images/back.png" width="50px" height="50px" onclick="history.go(-1)">
+            <div class="caption">Back</div>
+        </a>
+        <a href="/upload">
+            <img src="images/upload.png" width="50px" height="50px"> 
+            <div class="caption">Upload</div>
+        </a>
+        <a href="/login">
+            Login!
+        </a>
+        <p style="clear: both;">
+    </div>
 
-	<div class = "container">
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
-		<h4><center>NOTE IT!</h4>
-		<h5><center> A Collaborative Note-Taking App By Students, For Students</h5>
+    <div class = "container">
+        <!-- h1 through h6 are headers. The higher the number, the smaller the header -->
+        <!-- p means paragraph -->
+        <h4><center>NOTE IT!</h4>
+        <h5><center> A Collaborative Note-Taking App By Students, For Students</h5>
 
-		<IMG SRC="images/tritons.png" ALT="UCSD_Logo" WIDTH=100 HEIGHT=150 >
+        <IMG SRC="images/tritons.png" ALT="UCSD_Logo" WIDTH=100 HEIGHT=150 >
 
-		<hr>
+        <hr>
 
-		<div class="button" id="classes">
-			<a href="/classes" class = "thumbnail">
-				<p>Find Notes</p>
-			</a>
-		</div>
-		<div class="button" id="new_account">
-			<a href="/make_account" class = "thumbnail">
-				<p>Make an Acount</p>
-			</a>
-		</div>
+        <a href="/classes" id="classes" class="btn btn-primary btn-lg btn-block active" role="button">Find Notes</a>
 
-		<!-- Importing the JS scripts here for the project -->
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="/js/jquery-1.11.0.js"></script>
-		<script src="/js/bootstrap.js"></script>
-		<script src="/js/noteitucsd.js"></script>
-	</div>
+        <a href="/make_account" id="new_account" class="btn btn-primary btn-lg btn-block active" role="button">Make an Account</a>
+
+        <!-- Importing the JS scripts here for the project -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/js/jquery-1.11.0.js"></script>
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/noteitucsd.js"></script>
+    </div>
 </body>
 </html>
