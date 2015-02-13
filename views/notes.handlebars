@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Note It! UCSD</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Bootstrap -->
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="/css/noteitucsd.css" rel="stylesheet"> 
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<!-- this is a comment in HTML -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->        
+</head>
+
+<body>
+	<div id="images">
+		<a href="#">
+	        <img src="images/back.png" width="50px" height="50px" onclick="history.go(-1)">
+	        <div class="caption">Back</div>
+   	 	</a>
+
+	    <a href="/">
+	        <img src="images/home.png" width="50px" height="50px"> 
+	        <div class="caption">Home</div>
+	    </a>
+
+	    <a href="/upload">
+	        <img src="images/upload.png" width="50px" height="50px"> 
+	        <div class="caption">Upload</div>
+	    </a>
+
+	    <p style="clear: both;">
+	</div>
+
+	<div class="jumbotron">
+		<h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
+	</div>
+
+	<DIV class="container">
+		<h3><center>All Available Notes:</h3>
+	</DIV>
+	<div class="container">
+		<p> None at the moment! Check back later, or</p>
+		<hr>
+	</div>
+	<div class="button container" id="upload_notes">
+		<a href="/upload" class = "thumbnail">
+			<p>Upload Notes</p>
+		</a>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/js/jquery-1.11.0.js"></script>
+		<script src="/js/bootstrap.js"></script>
+		<script src="/js/noteitucsd.js"></script>
+</body>
+</html>
