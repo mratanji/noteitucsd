@@ -34,14 +34,18 @@
     <h1><center><a style="color: #FFFFFF" href="/">NOTE IT!</a></h1>
 
 	<div class="container">
-		<h3><center>Select Department</h3>
-
-		<div class="list-group">
+		<h3><center>Select Class</h3>
+	    {{#each Classes}}
+	      <div class="list-group">
+	      	<a href="/professor" class="list-group-item">{{department}} {{id}} </a>
+	      </div>
+	    {{/each}}
+		<!-- <div class="list-group">
 			<a href="/course_ID" class="list-group-item">COGS</a>
 	  		<a href="/course_ID" class="list-group-item">CSE</a>
 	  		<a href="/course_ID" class="list-group-item">ECE</a>
-		</div>
-	</div>
+		</div> 
+	</div> --> 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://code.jquery.com/jquery.js"></script>

@@ -1,0 +1,33 @@
+{
+	"Classes":[
+		{
+			"department": "CSE", 
+	    	"id": "3"
+		},
+		
+		{
+			"department": "CSE", 
+	    	"id": "7"
+		},	
+		
+		{
+			"department": "CSE", 
+	    	"id": "170"
+		},	
+		
+		{
+			"department": "COGS", 
+	    	"id": "100"
+		},
+		
+		{
+			"department": "ECE", 
+	    	"id": "118"
+		},	
+		
+		{
+			"department": "ECE", 
+	    	"id": "100"
+		}
+	]
+}
