@@ -7,6 +7,8 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
+var mongoose = require('mongoose');
+
 
 var index = require('./routes/index');
 var classes = require('./routes/classes');
@@ -21,6 +23,13 @@ var upload = require('./routes/upload');
 var account = require('./routes/accounts');
 // Example route
 // var user = require('./routes/user');
+
+
+// Connect to the Mongo database, whether locally or on Heroku
+var local_database_name = 'noteitucsd';
+var local_database_uri  = 'mongodb://localhost/' + local_database_name
+var database_uri = process.env.MONGOLAB_URI || local_database_uri
+mongoose.connect(database_uri);
 
 var app = express();
 
