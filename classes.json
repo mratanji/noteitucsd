@@ -3,37 +3,38 @@
 		{
 			"department": "CSE", 
 	    	"code": "3",
-	    	"fullName": "CSE3",
+	    	"fullName": "CSE3wi2014",
 	    	"year": 2014,
 	    	"quarter": "WI",
-	    	"professor": "Marx, Susan"
-
+	    	"professor": "Marx, Susan", 
+	    	"display": "CSE 3 for WI 2014 by Marx, Susan"
 		},
-		
 		{
 			"department": "CSE", 
 	    	"code": "7",
-	    	"fullName": "CSE7",
+	    	"fullName": "CSE7wi2014",
 	    	"year": 2014,
 	    	"quarter": "WI",
-	    	"professor": "Marx, Susan"
-		},	
-		
+	    	"professor": "Marx, Susan",
+	    	"display": "CSE 7 for WI 2014 by Marx, Susan"
+		},			
 		{
 			"department": "CSE", 
 	    	"code": "170",
-	    	"fullName": "CSE170",
+	    	"fullName": "CSE170wi2014",
 	    	"year": 2014,
 	    	"quarter": "WI",
-	    	"professor": "Klemmer, Scott"
+	    	"professor": "Klemmer, Scott",
+	    	"display": "CSE 170 for WI 2014 by Klemmer, Scott"	    	
 		},	
 		{
 			"department": "ECE", 
 	    	"code": "109",
-	    	"fullName": "ECE109",
+	    	"fullName": "ECE109wi2014",
 	    	"year": 2014,
 	    	"quarter": "WI",
-	    	"professor": "Zeger, Kenneth"
+	    	"professor": "Zeger, Kenneth",
+	    	"display": "ECE 107 for WI 2014 by Zeger, Kenneth"	    	
 		}
 	]
 }

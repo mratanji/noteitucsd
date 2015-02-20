@@ -1,3 +1,7 @@
 exports.view = function(req, res){
-	res.render('notes');
-};
+	var display = req.params.display;
+
+	res.render('notes', {
+		'display': display
+	});
+}

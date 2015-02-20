@@ -15,8 +15,6 @@ var done = require('./routes/done');
 var login = require('./routes/login');
 var make_account = require('./routes/make_account');
 var notes = require('./routes/notes');
-var professor = require('./routes/professor');
-var udder_quarters = require('./routes/udder_quarters');
 var upload = require('./routes/upload');
 var account = require('./routes/accounts');
 // Example route
@@ -51,9 +49,7 @@ app.get('/classes', classes.view);
 app.get('/done', done.view);
 app.get('/login', login.view);
 app.get('/make_account', make_account.view);
-app.get('/notes', notes.view);
-app.get('/professor', professor.view);
-app.get('/udder_quarters', udder_quarters.view);
+app.get('/:display/notes', notes.view);
 app.get('/upload', upload.view);
 app.get('/account_done', account.addAccount);
 // Example route
