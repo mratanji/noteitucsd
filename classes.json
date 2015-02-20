@@ -2,32 +2,38 @@
 	"Classes":[
 		{
 			"department": "CSE", 
-	    	"id": "3"
+	    	"code": "3",
+	    	"fullName": "CSE3",
+	    	"year": 2014,
+	    	"quarter": "WI",
+	    	"professor": "Marx, Susan"
+
 		},
 		
 		{
 			"department": "CSE", 
-	    	"id": "7"
+	    	"code": "7",
+	    	"fullName": "CSE7",
+	    	"year": 2014,
+	    	"quarter": "WI",
+	    	"professor": "Marx, Susan"
 		},	
 		
 		{
 			"department": "CSE", 
-	    	"id": "170"
+	    	"code": "170",
+	    	"fullName": "CSE170",
+	    	"year": 2014,
+	    	"quarter": "WI",
+	    	"professor": "Klemmer, Scott"
 		},	
-		
-		{
-			"department": "COGS", 
-	    	"id": "100"
-		},
-		
 		{
 			"department": "ECE", 
-	    	"id": "118"
-		},	
-		
-		{
-			"department": "ECE", 
-	    	"id": "100"
+	    	"code": "109",
+	    	"fullName": "ECE109",
+	    	"year": 2014,
+	    	"quarter": "WI",
+	    	"professor": "Zeger, Kenneth"
 		}
 	]
 }

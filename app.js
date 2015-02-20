@@ -7,12 +7,10 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
-var mongoose = require('mongoose');
 
 
 var index = require('./routes/index');
 var classes = require('./routes/classes');
-var course_ID = require('./routes/course_ID');
 var done = require('./routes/done');
 var login = require('./routes/login');
 var make_account = require('./routes/make_account');
@@ -24,12 +22,6 @@ var account = require('./routes/accounts');
 // Example route
 // var user = require('./routes/user');
 
-
-// Connect to the Mongo database, whether locally or on Heroku
-var local_database_name = 'noteitucsd';
-var local_database_uri  = 'mongodb://localhost/' + local_database_name
-var database_uri = process.env.MONGOLAB_URI || local_database_uri
-mongoose.connect(database_uri);
 
 var app = express();
 
@@ -56,7 +48,6 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/classes', classes.view);
-app.get('/course_ID', course_ID.view);
 app.get('/done', done.view);
 app.get('/login', login.view);
 app.get('/make_account', make_account.view);

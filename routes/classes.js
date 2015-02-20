@@ -1,5 +1,5 @@
-var data = require('../classes.json');
+var classes = require('../classes.json');
 
 exports.view = function(req, res){
-	res.render('classes', data);
+	res.render('classes', classes);
 };
