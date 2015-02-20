@@ -3,7 +3,6 @@
 		{
 			"department": "CSE", 
 	    	"code": "3",
-	    	"fullName": "CSE3wi2014",
 	    	"year": 2014,
 	    	"quarter": "WI",
 	    	"professor": "Marx, Susan", 
@@ -12,7 +11,6 @@
 		{
 			"department": "CSE", 
 	    	"code": "7",
-	    	"fullName": "CSE7wi2014",
 	    	"year": 2014,
 	    	"quarter": "WI",
 	    	"professor": "Marx, Susan",
@@ -21,7 +19,6 @@
 		{
 			"department": "CSE", 
 	    	"code": "170",
-	    	"fullName": "CSE170wi2014",
 	    	"year": 2014,
 	    	"quarter": "WI",
 	    	"professor": "Klemmer, Scott",
@@ -30,7 +27,6 @@
 		{
 			"department": "ECE", 
 	    	"code": "109",
-	    	"fullName": "ECE109wi2014",
 	    	"year": 2014,
 	    	"quarter": "WI",
 	    	"professor": "Zeger, Kenneth",

@@ -17,6 +17,9 @@ var make_account = require('./routes/make_account');
 var notes = require('./routes/notes');
 var upload = require('./routes/upload');
 var account = require('./routes/accounts');
+var add_class = require('./routes/add_class');
+var welcome = require('./routes/welcome');
+var done_class = require('./routes/done_addclass');
 // Example route
 // var user = require('./routes/user');
 
@@ -52,6 +55,9 @@ app.get('/make_account', make_account.view);
 app.get('/:display/notes', notes.view);
 app.get('/upload', upload.view);
 app.get('/account_done', account.addAccount);
+app.get('/add_class', add_class.view);
+app.get('/welcome', welcome.view);
+app.get('/done_addclass', add_class.addClass);
 // Example route
 // app.get('/users', user.list);
 

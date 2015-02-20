@@ -22,12 +22,15 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar-default">
 		<div class="container-fluid navbar-header">
 		    	<a onclick="history.go(-1)">
-		    		<button type="button" class="btn btn-default navbar-btn">Back</button></a>
+		    		<span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                &nbsp;
 		    	<a href="/">
-		    		<button type="button" class="btn btn-default navbar-btn">Home</button></a>
+		    		<span class="glyphicon glyphicon-home"></span>
+                </a>
       	</div><!-- /.container-fluid -->
     </nav>
 
@@ -37,15 +40,19 @@
 		<h3><center>Select Class</h3>
 	    {{#each Classes}}
 	      <div class="list-group">
-	      	<a href="/{{display}}/notes" class="list-group-item">{{department}} {{code}} {{professor}} {{quarter}} {{year}} </a>
+	      	<a href="/{{department}} {{code}} for {{quarter}} {{year}} by {{professor}}/notes" class="list-group-item">{{department}} {{code}} {{professor}} {{quarter}} {{year}} </a>
 	      </div>
 	    {{/each}}
+
+        <a href="/add_class" id="classes" class="btn btn-primary btn-lg btn-block active" role="button">Add Class</a>
+
+    </div>  
 		<!-- <div class="list-group">
 			<a href="/course_ID" class="list-group-item">COGS</a>
 	  		<a href="/course_ID" class="list-group-item">CSE</a>
 	  		<a href="/course_ID" class="list-group-item">ECE</a>
-		</div> 
-	</div> --> 
+		</div> -->
+	
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://code.jquery.com/jquery.js"></script>
