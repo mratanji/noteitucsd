@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-
+	
 {{> header}}
 
 <body>
@@ -9,7 +9,29 @@
 	<div class="container">
 		<h3><center>All Available Notes for {{display}}: </h3>
 		<br>
-		<p> None at the moment! Check back later, or</p>
+		
+		<div class="row">
+		  <div class="col-md-6 col-md-3">
+		      <a href="/images/note1.JPG" data-lightbox="note1">
+		      	<img class="note" src="/images/note1.JPG" alt="note1">
+		      </a>
+		      <a href="/images/note2.JPG" data-lightbox="note2">
+		      	<img class="note" src="/images/note2.JPG" alt="note2">
+		      </a>
+		  </div>
+		</div>
+
+		<div class="row">
+		  <div class="col-md-6 col-md-3">
+		      <a href="/images/note3.JPG" data-lightbox="note3">
+		      	<img class="note" src="/images/note3.JPG" alt="note3">
+		      </a>
+		      <a href="/images/note4.JPG" data-lightbox="note4">
+		      	<img class="note" src="/images/note4.JPG" alt="note4">
+		      </a>
+		  </div>
+		</div>
+
 		<hr></hr>
 		<a href="/upload" id="upload_notes" class="btn btn-primary btn-lg btn-block active" role="button">Upload Notes</a>
 	</div>
@@ -18,5 +40,7 @@
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="/js/bootstrap.js"></script>
 		<script src="/js/noteitucsd.js"></script>
+		<script src="/js/jquery-1.11.0.min.js"></script>
+		<script src="/js/lightbox.min.js"></script>
 </body>
 </html>
