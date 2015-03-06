@@ -18,5 +18,11 @@ exports.addClass = function(req, res) { 
  };
 
 exports.view = function(req, res) {
-    res.render('add_class');
+    var random_num = Math.random();
+
+    if(random_num > 0.5){
+        res.render("add_class", classes);
+    }else{
+        res.render("add_class_alt", classes)
+    }
 }

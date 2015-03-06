@@ -10,21 +10,21 @@
         <form id="addClassForm" role="form" method="get" action="/done_addclass">
             <h3>Add a class</h3>
             <div class="form-group">
-              <input type="text" class="form-control" id="department" maxlength="4" style="text-transform:uppercase" placeholder="Department (i.e CSE, MGT)" name="department">
+              <input type="text" class="form-control" id="department" maxlength="4" style="text-transform:uppercase" placeholder="Department (i.e CSE, MGT)" name="department"required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="code" maxlength="5" style="text-transform:uppercase" placeholder="Code (i.e. 110, 20C)" name="code">
+              <input type="text" class="form-control" id="code" maxlength="5" style="text-transform:uppercase" placeholder="Code (i.e. 110, 20C)" name="code"required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="year" placeholder="Year (i.e. 2014)" name="year">
+              <input type="text" class="form-control" id="year" placeholder="Year (i.e. 2014)" name="year"required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="quarter" maxlength="2" style="text-transform:uppercase" placeholder="Quarter (i.e FA, WI)" name="quarter">
+              <input type="text" class="form-control" id="quarter" maxlength="2" style="text-transform:uppercase" placeholder="Quarter (i.e FA, WI)" name="quarter" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="professor" placeholder="Professor (Last, First)" name="professor">
+              <input type="text" class="form-control" id="professor" placeholder="Professor (Last, First)" name="professor"required>
             </div>
-            <input type="submit" id="submitBtn" class="btn btn-default btn-lg btn-block active" value="Add Class"></input>
+            <input type="submit" id="submitBtn" class="btn btn-default btn-lg btn-block active version_a" value="Add Class"></input>
         </form>
     </div>
     

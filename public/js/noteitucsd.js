@@ -10,4 +10,11 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Javascript connected!");
+	$(".version_a").click(function(){
+		woopra.track("version_a_submit");
+	})
+
+	$(".version_b").click(function(){
+		woopra.track("version_b_submit");
+	})
 }

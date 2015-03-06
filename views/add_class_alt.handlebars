@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+{{> header}}
+
+<body>
+    {{> navbar}}
+    
+    <div class="container">
+        <form id="addClassForm" role="form" method="get" action="/done_addclass">
+            <h3>Add a class</h3>
+            <div class="form-group">
+                {{> subjectcodes}}
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="code" maxlength="5" style="text-transform:uppercase" placeholder="Code (i.e. 110, 20C)" name="code" required>
+            </div>
+            <div class="form-group">
+                {{> year}}
+            </div>
+            <div class="form-group">
+                {{> quarter}}
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="professor" placeholder="Professor (Last, First)" name="professor" required>
+            </div>
+            <input type="submit" id="submitBtn" class="btn btn-default btn-lg btn-block active version_b" value="Add Class"></input>
+        </form>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/noteitucsd.js"></script>
+</body>
+</html>
