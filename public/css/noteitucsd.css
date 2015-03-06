@@ -43,13 +43,12 @@ body {
 
 .nav1{
      padding: 7px 7px 7px 7px;
-     font-size: 14px;
+     font-size: 15px;
      color: rgb(160, 160, 160);
      font-weight: bold;
 }
 
 h1{
-    font-family: Arial;
     font-weight: 10;
 }
 .header{
@@ -74,4 +73,8 @@ h1{
     text-decoration:none;
     color:white;
     float: left;
+}
+
+.bottom{
+    padding-bottom: 10px;
 }
