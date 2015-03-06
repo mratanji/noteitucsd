@@ -9,22 +9,26 @@
 			<a href="/">
 				<button type="button" class="btn btn-default">
 					<span class="glyphicon glyphicon-home"></span>
-					 NoteIt!
+					 Home
 				</button>
 			</a>
+			&nbsp; NoteIt!
 		</div>
 	</nav>
 
 	<div class="container">
-		<h3><center>Select Class</h3>
+		<h3><center>Classes</h3>
 	    {{#each Classes}}
 	      <div class="list-group">
 	      	<a href="/{{department}} {{code}} for {{quarter}} {{year}} by {{professor}}/notes" class="list-group-item">{{department}} {{code}} {{professor}} {{quarter}} {{year}} </a>
 	      </div>
 	    {{/each}}
 
-        <a href="/add_class" id="classes" class="btn btn-primary btn-lg btn-block active" role="button">Add Class</a>
-
+	    <div class="bottom">
+        <a href="/add_class" id="classes" class="btn btn-default btn-lg btn-block active" role="button">
+        	<span class="glyphicon glyphicon-plus"></span>
+        	Add New Class</a>
+    	</div>  
     </div>  
 		<!-- <div class="list-group">
 			<a href="/course_ID" class="list-group-item">COGS</a>

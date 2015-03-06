@@ -7,7 +7,7 @@
 	{{> navbar}}
 
 	<div class="container">
-		<h3><center>All Available Notes for {{display}}: </h3>
+		<h3><center>All Notes for {{display}}: </h3>
 		<br>
 		
 		<div class="row">
@@ -33,7 +33,11 @@
 		</div>
 
 		<hr></hr>
-		<a href="/upload" id="upload_notes" class="btn btn-primary btn-lg btn-block active" role="button">Upload Notes</a>
+		<div class="bottom">
+		<a href="/upload" id="upload_notes" class="btn btn-default btn-lg btn-block active" role="button">
+			<span class="glyphicon glyphicon-plus"></span>
+			Add Notes</a>
+		</div>
 	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
