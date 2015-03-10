@@ -20,6 +20,7 @@ var account = require('./routes/accounts');
 var add_class = require('./routes/add_class');
 var welcome = require('./routes/welcome');
 var done_class = require('./routes/done_addclass');
+var learn = require('./routes/learn');
 // Example route
 // var user = require('./routes/user');
 
@@ -58,6 +59,7 @@ app.get('/account_done', account.addAccount);
 app.get('/add_class', add_class.view);
 app.get('/welcome', welcome.view);
 app.get('/done_addclass', add_class.addClass);
+app.get('/learn', learn.view);
 // Example route
 // app.get('/users', user.list);
 
